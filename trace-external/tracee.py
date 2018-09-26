@@ -1,6 +1,6 @@
-import signal
+import time
 
-def handler(signum, frame):
-    print('Signal handler called with signal', signum)
-    
-signal.signal(signal.SIGSTOP, handler)
+while True:
+    print("Hello")
+    time.sleep(60)
+
